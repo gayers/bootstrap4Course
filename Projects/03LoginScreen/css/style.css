@@ -1,0 +1,12 @@
+body {
+    background: url(/img/city.jpeg) no-repeat center right fixed;
+    background-size: cover;
+    background-color: #4646464;
+}
+
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 0 auto;
+}

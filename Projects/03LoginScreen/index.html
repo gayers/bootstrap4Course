@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+       
+        
+    </head>
+    
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">A project based approach to learn Modal</h1>
+                    <p class="text-center">
+                        <a href="#" data-toggle="modal" data-target="#login-modal" role="button" class="btn btn-primary btn-lg">Login Here</a>
+                    </p>
+                </div>
+            </div>
+        </div><!-- END OF CONTAINER -->        
+        
+        
+        <div class="modal fade" id="login-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img id="img_logo" class="img-thumbnail" src="img/logo.png" alt="Logo">
+                    </div>
+                    
+                    
+                    <div id="div-forms">
+                        <form>
+                            <div>
+                                <span>Type your email and password here:</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Email" required>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                            <div class="checkbox">
+                                <lable>
+                                    <input type="checkbox"> Remember me
+                                </lable>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>        
+</html>
